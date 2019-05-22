@@ -78,7 +78,7 @@ class Login extends Component{
     render(){        
         return <div>
                 <div className="alert alert-success" role="alert" hidden={!this.state.showLoginSuccess}>
-                    Login success! May the power be with you
+                    Login success! May the force be with you
                 </div>
                 <div className="alert alert-danger" role="alert" hidden={!this.state.showLoginFailure}>
                     Oops! Try again. Login failed
